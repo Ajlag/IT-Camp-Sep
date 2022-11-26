@@ -1,4 +1,4 @@
-//Primitivni i  tipovi podatak referentni
+//Primitivni i  referentni tipovi podatak 
 
 // Primitivni:
 // string

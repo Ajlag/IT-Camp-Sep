@@ -28,13 +28,6 @@ console.log(20 % 7);
 //   //ako uslov nije ispunjen
 // }
 
-a = -10;
-
-if (a > 0) {
-  console.log("Broj je pozitivan");
-} else {
-  console.log("Broj je negativan");
-}
 
 ime = "Ajla";
 

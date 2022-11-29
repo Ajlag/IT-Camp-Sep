@@ -65,7 +65,6 @@ a--;
 a *= 2;
 
 console.log(a % 4);
-
 // utorak 19:30
 // sreda 18:00
 // subota 13:30

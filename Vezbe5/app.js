@@ -70,9 +70,37 @@
 // ***
 // ****
 
-zvezdice = "";
+// zvezdice = "";
 
-for (i = 0; i < 5; i++) {
-  zvezdice += "";
-  console.log(zvezdice);
+// for (i = 0; i < 5; i++) {
+//   zvezdice += "*";
+//   console.log(zvezdice);
+// }
+
+//1
+//12
+//123
+//1234
+
+str = "";
+
+for (i = 1; i <= 5; i++) {
+  str += i;
+  console.log(str);
+}
+
+//1
+//22
+//333
+//4444
+
+brojac = 1;
+
+for (i = 1; i <= 5; i++) {
+  ispis = "";
+  for (j = 1; j <= i; j++) {
+    ispis += brojac;
+  }
+  console.log(ispis);
+  brojac++;
 }

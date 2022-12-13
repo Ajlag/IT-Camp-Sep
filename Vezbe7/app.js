@@ -75,6 +75,10 @@ noviText = text + " Nejla";
 // console.log(str);
 
 prviStr = "Hello";
+console.log(prviStr[0]);
+
+duzinaString = prviStr.length;
+
 drugiStr = "World";
 
 if (prviStr === drugiStr) {

@@ -69,10 +69,3 @@ if (broj === amstrongNumber) {
 // Ispisati sve trocifrene brojeve čija je suma prve dve cifre veća od treće cifre trocifrenog broja.
 
 // Ispisati sve trocifrene brojeve čija je suma cifara jednaka učitanom broju X.
-
-str = "pneumonoultramicroscopicsilicovolcanoconiosis";
-if (str.length <= 10) {
-  console.log(str);
-} else {
-  console.log(str[0] + (str.length - 2) + str[str.length - 1]);
-}

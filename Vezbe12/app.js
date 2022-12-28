@@ -72,85 +72,106 @@ let num = 20;
 
 // console.log(arrayDays[num - 1]);
 
-switch (num) {
-  case 1:
-    console.log("Ponedeljak");
-    break;
-  case 2:
-    console.log("Utorak");
-    break;
-  case 3:
-    console.log("Sreda");
-    break;
-  case 4:
-    console.log("Cetvrtak");
-    break;
-  case 5:
-    console.log("Petak");
-    break;
-  case 6:
-    console.log("Subota");
-    break;
-  case 7:
-    console.log("Nedelja");
-    break;
+// switch (num) {
+//   case 1:
+//     console.log("Ponedeljak");
+//     break;
+//   case 2:
+//     console.log("Utorak");
+//     break;
+//   case 3:
+//     console.log("Sreda");
+//     break;
+//   case 4:
+//     console.log("Cetvrtak");
+//     break;
+//   case 5:
+//     console.log("Petak");
+//     break;
+//   case 6:
+//     console.log("Subota");
+//     break;
+//   case 7:
+//     console.log("Nedelja");
+//     break;
 
-  default:
-    console.log("Greska");
-}
+//   default:
+//     console.log("Greska");
+// }
 
 //Izdvojiti elemente bez ponavljanja;
-const niz = [10, 15, 2, 3, 10, 13, 3, 45, 2];
-const noviNiz = [];
+// const niz = [10, 15, 2, 3, 10, 13, 3, 45, 2];
+// const noviNiz = [];
 
-let isInside = false;
+// let isInside = false;
 
-for (let i = 0; i < niz.length; i++) {
-  isInside = false;
-  for (let j = 0; j < noviNiz.length; j++) {
-    if (niz[i] === noviNiz[j]) {
-      isInside = true;
+// for (let i = 0; i < niz.length; i++) {
+//   isInside = false;
+//   for (let j = 0; j < noviNiz.length; j++) {
+//     if (niz[i] === noviNiz[j]) {
+//       isInside = true;
+//       break;
+//     }
+//   }
+
+//   if (isInside) {
+//     continue;
+//   } else {
+//     noviNiz.push(niz[i]);
+//   }
+// }
+
+// console.log(noviNiz);
+
+//Domaci izdvojiti jedinstvene elemente nekog niza
+
+niz = [10, 15, 2, 10, 5, 15];
+isUnique = true;
+newArray = [];
+for (i = 0; i < niz.length; i++) {
+  isUnique = true;
+  for (let j = i + 1; j < niz.length; j++) {
+    if (niz[i] === niz[j]) {
+      niz[j] = "";
+      isUnique = false;
       break;
     }
   }
 
-  if (isInside) {
-    continue;
+  if (isUnique && niz[i] !== "") {
+    newArray.push(niz[i]);
   } else {
-    noviNiz.push(niz[i]);
+    continue;
   }
 }
 
-console.log(noviNiz);
-
-//Domaci izdvojiti jedinstvene elemente nekog niza
-
+console.log(newArray);
 // Unose se dva stringa A i B. Kreirati novi string kao kombinaciju stringova A i B,
 // tako što se kombinuju prvi sa prvim, drugi sa drugim, treći sa trećim znakom itd.
 // Ako je jedan string duži od drugog, na kraju samo dodati znakove viška.
 // Npr. za stringove "PERA" i "sladoled" dobija se string "PsElRaAdoled".
 
-let firstStr = "Pera";
-let secondStr = "sladoled";
-let newStr = "";
-let length = 0;
+// let firstStr = "Pera";
+// let secondStr = "sladoled";
+// let newStr = "";
+// let length = 0;
 
-if (firstStr.length > secondStr.length) {
-  length = firstStr.length;
-} else {
-  length = secondStr.length;
-}
+// if (firstStr.length > secondStr.length) {
+//   length = firstStr.length;
+// } else {
+//   length = secondStr.length;
+// }
 
-for (let i = 0; i < length; i++) {
-  if (firstStr[i] === undefined) {
-    newStr += secondStr[i];
-    continue;
-  }
+// for (let i = 0; i < length; i++) {
+//   if (firstStr[i] === undefined) {
+//     newStr += secondStr[i];
+//     continue;
+//   }
 
-  if (secondStr[i] === undefined) {
-    newStr += firstStr[i];
-    continue;
-  }
-  newStr += firstStr[i] + secondStr[i];
-}
-console.log(newStr);
+//   if (secondStr[i] === undefined) {
+//     newStr += firstStr[i];
+//     continue;
+//   }
+//   newStr += firstStr[i] + secondStr[i];
+// }
+// console.log(newStr);

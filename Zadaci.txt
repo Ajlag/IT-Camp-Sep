@@ -1,0 +1,9 @@
+
+Nadji najduzu rec u stringu
+
+------------------------------------------------------------------------------------
+
+Dat je niz brojeva. Proveriti da li je dati niz pivot. 
+Pivot je niz gde je suma svih brojeva sa leve strane jednak zbiru brojeva sa desne. 
+
+-----------------------------------------------------------------------------------

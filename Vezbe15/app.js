@@ -88,16 +88,16 @@ console.log(newArray);
 //  * * * *
 // * * * * *
 //* * * * * *
-let str = "";
-let razmak = "";
-for (let i = 1; i < 5; i++) {
-  razmak = "";
-  for (let j = 1; j < 5 - i; j++) {
-    razmak += " ";
-  }
-  str += "* ";
-  console.log(razmak + str);
-}
+// let str = "";
+// let razmak = "";
+// for (let i = 1; i < 5; i++) {
+//   razmak = "";
+//   for (let j = 1; j < 5 - i; j++) {
+//     razmak += " ";
+//   }
+//   str += "* ";
+//   console.log(razmak + str);
+// }
 
 //i=1razmak
 //j=1,j=2, j=3,j=4
@@ -114,13 +114,13 @@ for (let i = 1; i < 5; i++) {
 // 1 2 3 4 5
 //1 2 3 4 5 6
 
-let str = "";
-let razmak = "";
-for (let i = 1; i < 5; i++) {
-  razmak = "";
-  for (let j = 1; j < 5 - i; j++) {
-    razmak += " ";
-  }
-  str += i + " ";
-  console.log(razmak + str);
-}
+// let str = "";
+// let razmak = "";
+// for (let i = 1; i < 5; i++) {
+//   razmak = "";
+//   for (let j = 1; j < 5 - i; j++) {
+//     razmak += " ";
+//   }
+//   str += i + " ";
+//   console.log(razmak + str);
+// }

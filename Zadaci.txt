@@ -1,9 +1,4 @@
+https://www.codewars.com/kata/5648b12ce68d9daa6b000099/train/javascript
 
-Nadji najduzu rec u stringu
 
-------------------------------------------------------------------------------------
-
-Dat je niz brojeva. Proveriti da li je dati niz pivot. 
-Pivot je niz gde je suma svih brojeva sa leve strane jednak zbiru brojeva sa desne. 
-
------------------------------------------------------------------------------------
+// Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.

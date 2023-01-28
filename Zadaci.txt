@@ -1,0 +1,59 @@
+Napisati funkciju koja vraca string u kojem je ime zamenjeno prezimenom. 
+------------------------------------------------------------------------------------
+kreirati funkciju spinSingleWord koja kao argument dobija recenicu.
+
+Ukoliko sadrzo vise od 4 karaktera potreno je tu 
+recenicu okrenuti. 
+npr: Ovo je neka recenica =>acinecer aken ej ovO
+
+u suprotnom vratiti tu rec.
+
+npr: word => word
+---------------------------------------------------------
+
+//Vratiti godine najmladje osobe, godine najstarije osobe i razliku medju godinama
+
+const input = [
+  {
+    name: "John",
+    age: 13,
+  },
+  {
+    name: "Mark",
+    age: 56,
+  },
+  {
+    name: "Rachel",
+    age: 45,
+  },
+  {
+    name: "Nate",
+    age: 67,
+  },
+  {
+    name: "Jennifer",
+    age: 65,
+  },
+];
+-------------------------------------------------------------------------
+
+//Dat je niz objekata koji predstavljaju grupu ucenika,
+svaki sa imenom i nizom rezultata testa.
+Vas zadatak je da koristite map, filter, reduce da biste izracunali prosecan
+rezultat testa za svakog ucenika, a zatim vratite niz objekata koji sadrze samo 
+ucenike koji imaju prosecan rezultat iznad 90.
+Input:
+
+const students = [
+  { name: "Alice", scores: [90, 85, 92] },
+  { name: "Bob", scores: [75, 80, 85] },
+  { name: "Charlie", scores: [90, 95, 85] },
+  { name: "David", scores: [100, 100, 100] }
+];
+
+Rezultat:
+[
+  { name: 'Jack', average: 100 }
+]
+
+----------------------------------------

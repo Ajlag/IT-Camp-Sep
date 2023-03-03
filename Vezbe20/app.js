@@ -116,3 +116,27 @@ function pomnozi(el) {
 console.log(noviN);
 
 // arr.forEach((el) => console.log(el * 2));
+
+console.log("Nesto");
+console.log("Nesto drugo");
+
+function saberi(a, b, c) {
+  return a + 5;
+}
+
+function ispis(callback) {
+  console.log(callback(7, 10, 100));
+}
+
+ispis(saberi);
+
+function pozdrav(ime) {
+  console.log("Pozdrav ", ime);
+}
+
+function IspisiPOzdrav(callback) {
+  console.log("Nesto");
+  console.log("Treba da mi pozdravi nekog.", callback("Ajla"));
+}
+
+IspisiPOzdrav(pozdrav);
